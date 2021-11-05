@@ -16,7 +16,7 @@ require('../../../../../wp-load.php');
 
 /* Mailchimp Settings */
 $mailchimp          = true;            // Set to TRUE to use Mailchimp
-$mailchimpApiKey    = 'b8206bbd63fc123c22e8612975881cac-us5';               // Your Mailchimp Api Key
+$mailchimpApiKey    = '***********hiddensinceGitrepoispublic';               // You can get this from MailChimp
 $mailchimpIDList    = '26b308e9f0';               // Your Mailchimp ID list
 $double_optin       = false;            // Set to TRUE to conrol whether a double opt-in confirmation message is sent
 $send_welcome       = true;            // Set to TRUE to send a welcome message when the subscription is successful. NOTE: $double_optin must be set to FALSE

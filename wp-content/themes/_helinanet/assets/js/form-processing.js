@@ -18,7 +18,7 @@ setTimeout(function(){
 //Contact Us
 function contactUs() {
         var spinner = $('#loader');
-		const contactURLC = 'https://script.google.com/macros/s/AKfycbxRCtX1OnmhxDQTSnQH-HUey3zdsWFcToqWTbCgT29hXcovMnfXY8vlBCJ_jl95FA1_9Q/exec'
+		const contactURLC = 'https://script.google.com/macros/s/AKfycbyneTVI4My4HuZ99dO3AgXXrbCvLygF9xxvV8T8TXvhw7WM3YRJeN8JsC5oyeFm-T0qEg/exec'
         const contactForm = document.forms['contact-us'];
             spinner.show();
             fetch(contactURLC, {
@@ -56,7 +56,7 @@ function contactUs() {
 //Webcomment
 function submitWebComment() {
         var spinner = $('#loader');
-		const scriptURLC = 'https://script.google.com/macros/s/AKfycbwuyihLNUsvr2pMyyZ86-uX8_fIke1kM9cQks09FZpkYN7phw3anbiPS2CMRVrYo4WSZA/exec'
+		const scriptURLC = 'https://script.google.com/macros/s/AKfycbxFBVW4f4xdjJKnI4pvSde_9ek3osGODRNmNak9wtLyAXpuXPnWaL7RFanJOVkYvqEu/exec'
         const serverlessForm = document.forms['serverless-form'];
             spinner.show();
             fetch(scriptURLC, {
@@ -91,7 +91,7 @@ function submitWebComment() {
 ///Partnershi
 function becomeHelinaPartner() {
         var spinner = $('#loader');
-		const scriptURLC = 'https://script.google.com/macros/s/AKfycbyuEm8PtA_MPfsbK2_ApuvFWc-ebZ73N4-I-fNHcmaZ9muxzmpY0M0_5cPpELQJAk_PZA/exec'
+		const scriptURLC = 'https://script.google.com/macros/s/AKfycbwA3DeosU2S-TNx4AkfMB_X42Kiyr2poCS19aup2A998tOvocdnphUy8AGeV-EP8Eb8/exec'
         const serverlessForm = document.forms['become-a-partner-form'];
             spinner.show();
             fetch(scriptURLC, {
@@ -132,7 +132,7 @@ function becomeHelinaMember() {
 		var btn=$('#btn_becomemember');
 		var oldtext = btn.val();
         var spinner = $('#loader');
-		const scriptURLC = 'https://script.google.com/macros/s/AKfycbxeCWFv9sKwplXPxzSbKyi8Wau-ZpW52jtIMV8GcUHdJQweGt4dqR3XB6FfU3C-7LWj/exec'
+		const scriptURLC = 'https://script.google.com/macros/s/AKfycbzsZplfrM1-D56hnNyQfXd_47cM1ykrkD8peNfzhXvXKZeq7-9HsJY5SHSS8D5pTOYc/exec'
         const serverlessForm = document.forms['become-a-member-form'];
             spinner.show();
             fetch(scriptURLC, {
